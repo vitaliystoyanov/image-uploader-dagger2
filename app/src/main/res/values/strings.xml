@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="dialog_retry_title">An error occur</string>
+    <string name="dialog_retry_positive_button">Retry</string>
+
+    <string name="app_name" translatable="false">Image uploader</string>
+    <string name="action_open">Open a website</string>
+    <string name="intent_chooser_title">Select Picture</string>
+    <string name="fab_item_take_photo">Take a photo</string>
+
+    <string name="error_occurred">An error has occurred</string>
+    <string name="image_dont_selected">An image don\'t selected</string>
+    <string name="error_occurred_network">An error has occurred in network</string>
+    <string name="error_no_camera">This device doesn\'t have a camera</string>
+    <string name="error_file_big">Large file size</string>
+
+    <string name="status_prepare">Prepare</string>
+    <string name="status_compress">Processing</string>
+    <string name="status_upload">Upload</string>
+
+    <string name="title_get_started">Get started</string>
+    <string name="title_uploading">Upload</string>
+    <string name="title_response">Uploaded</string>
+
+    <string name="service_title_notification">Uploader</string>
+    <string name="service_compress">Image processing</string>
+    <string name="service_upload">Image upload</string>
+    <string name="service_complete">An image was uploaded. Click for detail</string>
+    <string name="error_image_exits">Error</string>
+    <string name="success_upload">An image was uploaded</string>
+    <string name="label_link_viewer">Link viewer:</string>
+    <string name="lable_link_full">Link full:</string>
+    <string name="lable_share">Share</string>
+    <string name="text_button_copy">Copy</string>
+    <string name="field_filename">Filename: </string>
+    <string name="welcome_limit_size_text">Max 5 MB</string>
+    <string name="fab_lable_take_photo">Take a photo</string>
+    <string name="fab_lable_select_image">Select an image</string>
+    <string name="link_copied">Link copied</string>
+    <string name="intent_chooser_email">Send Email</string>
+    <string name="intent_chooser_social_app">Choose App</string>
+    <string name="welcome_site_description">Free hosting for photos and images</string>
+    <string name="welcome_site">pic.co.ua</string>
+    <string name="menu_action_languages">Languages</string>
+
+    <string name="dialog_language_title">Select language</string>
+    <string-array name="language_items">
+        <item>English</item>
+        <item>Русский</item>
+        <item>Українська</item>
+    </string-array>
+    <string name="dialog_button_choose">Choose</string>
+    <string name="language_selected">language is selected</string>
+    <string name="language_select_error">Restart application or wait for uploads</string>
+    <string name="dialog_button_negative">Cancel</string>
+    <string name="dialog_retry_content">Perhaps no the Internet connection or this image already loaded.</string>
+</resources>

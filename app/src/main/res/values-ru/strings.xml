@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_open">Открыть сайт</string>
+    <string name="error_file_big">Файл слишком большой</string>
+    <string name="error_image_exits">Ошибка</string>
+    <string name="error_no_camera">Устройство не имеет камеру </string>
+    <string name="error_occurred">Произошла ошибка</string>
+    <string name="error_occurred_network">Ошибка с соединением</string>
+    <string name="fab_item_take_photo">Сделать фото</string>
+    <string name="fab_lable_select_image">Выбрать</string>
+    <string name="fab_lable_take_photo">Сделать фото</string>
+    <string name="field_filename">Название: </string>
+    <string name="image_dont_selected">Изображение не выбрано</string>
+    <string name="intent_chooser_title">Выбрать изображение</string>
+    <string name="label_link_viewer">Ссылка для просмотра:</string>
+    <string name="lable_link_full">Ссылка полная:</string>
+    <string name="lable_share">Поделиться</string>
+    <string name="link_copied">Ссылка скопирована</string>
+    <string name="service_complete">Изображение загружено.Нажмите, чтобы перейти</string>
+    <string name="service_title_notification">Загрузчик</string>
+    <string name="service_upload">Изображение загружается</string>
+    <string name="status_compress">Обработка</string>
+    <string name="status_upload">Загрузка</string>
+    <string name="text_button_copy">Copy</string>
+    <string name="title_response">Загруженное</string>
+    <string name="title_get_started">Начало</string>
+    <string name="title_uploading">Загрузка</string>
+    <string name="welcome_limit_size_text">Макс. 5 МБ</string>
+    <string name="success_upload">Изображение было загружено</string>
+    <string name="status_prepare">Подготовка</string>
+    <string name="service_compress">Изображение обрабатывается</string>
+    <string name="intent_chooser_email">Отправить на почту</string>
+    <string name="intent_chooser_social_app">Выбор приложения</string>
+    <string name="welcome_site_description">Бесплатный хостинг для фото и картинок</string>
+    <string name="welcome_site">pic.co.ua</string>
+    <string name="menu_action_languages">Языки</string>
+
+    <string name="dialog_button_choose">Выбрать</string>
+    <string name="dialog_language_title">Выбрать язык</string>
+    <string name="language_selected">Язык выбран</string>
+    <string name="language_select_error">Перезагрузите приложение или дождитесь загрузки</string>
+    <string-array name="language_items">
+        <item>English</item>
+        <item>Русский</item>
+        <item>Українська</item>
+    </string-array>
+    <string name="dialog_retry_positive_button">Повторить</string>
+    <string name="dialog_retry_title">Произошла ошибка</string>
+    <string name="dialog_button_negative">Отменить</string>
+    <string name="dialog_retry_content">Возможно нет соединения или такое изображение уже загружено</string>
+
+</resources>

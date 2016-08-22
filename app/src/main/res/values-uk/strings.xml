@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_open">Відкрити сайт</string>
+    <string name="error_file_big">Файл занадто великий</string>
+    <string name="error_image_exits">Помилка</string>
+    <string name="error_no_camera">Пристрій не має камеру</string>
+    <string name="error_occurred">Виникла помилка</string>
+    <string name="error_occurred_network">Виникла помилка зі з\'єднанням</string>
+    <string name="fab_item_take_photo">Зробити фото</string>
+    <string name="fab_lable_select_image">Вибрати</string>
+    <string name="fab_lable_take_photo">Зробити фото</string>
+    <string name="field_filename">Назва:</string>
+    <string name="image_dont_selected">Зображення не вибрано</string>
+    <string name="intent_chooser_title">Вибрати зображення</string>
+    <string name="label_link_viewer">Посилання для перегляду:</string>
+    <string name="lable_share">Поділитися</string>
+    <string name="service_title_notification">Завантажувач</string>
+    <string name="service_upload">Зображення завантажується</string>
+    <string name="status_compress">Обробка</string>
+    <string name="status_upload">Завантаження</string>
+    <string name="text_button_copy">Copy</string>
+    <string name="title_response">Завантажене</string>
+    <string name="title_get_started">Початок</string>
+    <string name="title_uploading">Завантаження</string>
+    <string name="welcome_limit_size_text">Макс. 5 МБ</string>
+    <string name="success_upload">Зображення було завантажено</string>
+    <string name="status_prepare">Підготовка</string>
+    <string name="service_compress">Зображення обробляється</string>
+    <string name="service_complete">Зображення завантажене. Натисніть, щоб перейти</string>
+    <string name="link_copied">Посилання скопійовано</string>
+    <string name="lable_link_full">Посилання повне:</string>
+    <string name="intent_chooser_email">Надіслати на пошту</string>
+    <string name="intent_chooser_social_app">Вибір додатка</string>
+    <string name="welcome_site_description">Безкоштовний хостинг для фото і картинок</string>
+    <string name="welcome_site">pic.co.ua</string>
+    <string name="menu_action_languages">Мови</string>
+
+    <string name="dialog_button_choose">Вибрати</string>
+    <string name="dialog_language_title">Вибрати мову</string>
+    <string name="language_selected">Мова вибрана</string>
+    <string name="language_select_error">Перезавантажте додаток або дочекайтеся завантаження</string>
+    <string-array name="language_items">
+        <item>English</item>
+        <item>Русский</item>
+        <item>Українська</item>
+    </string-array>
+    <string name="dialog_retry_positive_button">Повторити</string>
+    <string name="dialog_retry_title">Виникла помилка</string>
+    <string name="dialog_button_negative">Відмінити</string>
+    <string name="dialog_retry_content">Можливо немає з\'єднання або таке зображення вже завантажено</string>
+</resources>

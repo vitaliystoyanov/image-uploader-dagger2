@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fdd835</color>
+    <color name="colorPrimaryDark">#d7bb3d</color>
+    <color name="colorAccent">#378be6</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+
+    <color name="fab_plus_icon">#ffffff</color>
+    <color name="fab_normal">@color/colorAccent</color>
+    <color name="fab_pressed">#007db6</color>
+
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <color name="orange">#ff901d</color>
+    <color name="orange_pressed">#c66f15</color>
+    <color name="green">#42ab08</color>
+    <color name="green_pressed">#338306</color>
+
+    <color name="text_black">#b2000000</color>
+    <color name="text_white">#ffffff</color>
+</resources>

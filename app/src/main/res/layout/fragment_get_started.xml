@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/upper_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/welcome_site"
+            android:textColor="@color/text_black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/welcome_site_description"
+            android:textColor="@color/text_black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/welcome_limit_size_text"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_anchor="@id/upper_layout"
+        app:layout_anchorGravity="bottom|right|end"
+        fab:fab_addButtonColorNormal="@color/fab_normal"
+        fab:fab_addButtonColorPressed="@color/fab_pressed"
+        fab:fab_addButtonPlusIconColor="@color/fab_plus_icon"
+        fab:fab_labelsPosition="left"
+        app:fab_labelStyle="@style/MenuLabelStyle">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_menu_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/green"
+            fab:fab_colorPressed="@color/green_pressed"
+            fab:fab_icon="@drawable/ic_image_select"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_lable_select_image" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_menu_take_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/orange"
+            fab:fab_colorPressed="@color/orange_pressed"
+            fab:fab_icon="@drawable/ic_camera"
+            fab:fab_size="mini"
+            fab:fab_title="@string/fab_lable_take_photo" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+</android.support.design.widget.CoordinatorLayout>
