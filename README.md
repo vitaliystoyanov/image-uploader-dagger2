@@ -8,6 +8,16 @@ pic.co.ua is a hosting that allows to upload and share images.
 <img alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
 </a>
 
+## Features
+- Take a photo or pick from gallery
+- Support multi languages
+- Share on social networks
+- Send an email
+- Open links in browser
+- Copy links to clipboard
+- Notifications
+- Works in a background service
+
 ## Libraries
 * [Dagger 2](http://google.github.io/dagger/)
 * [Retrofit 2](http://square.github.io/retrofit/)
