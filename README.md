@@ -1,22 +1,21 @@
 # Image uploader for [pic.co.ua](http://pic.co.ua) ![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)
 
-pic.co.ua is a hosting that allows to upload and share images.
+pic.co.ua is a photo hosting that allows you to upload and share images.
 
 <img src="https://github.com/vitaliystoyanov/image-uploader-dagger2/raw/master/demo/demo.gif" width="320">
 
 <a href="https://play.google.com/store/apps/details?id=ua.co.pic.imageuploader">
-<img alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" />
+<img alt="Get it on Google Play" src="http://steverichey.github.io/google-play-badge-svg/img/en_get.svg" height="76px" />
 </a>
 
 ## Features
-- Take a photo or pick from gallery
-- Support multi languages
-- Share on social networks
-- Send an email
+- Take a photo or pick it from gallery
+- Share via social networks or email
 - Open links in browser
 - Copy links to clipboard
 - Notifications
 - Works in a background service
+- Supports multi languages
 
 ## Libraries
 * [Dagger 2](http://google.github.io/dagger/)
